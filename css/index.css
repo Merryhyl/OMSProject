@@ -1,0 +1,167 @@
+html,body{
+    font-family: MicrosoftYaHei;
+    width: 100%;
+}
+.oms-header{
+    background-color: #333333 ;
+}
+.main-header{
+    width:1190px;
+    margin: 0 auto;
+
+}
+.welcome-header{
+    color:#999999;
+    font-size:14px;
+    height: 28px;
+    line-height: 28px;
+    border-bottom: solid 1px #999999;;
+}
+.welcome-title{
+    text-align:left;
+    float: left;
+}
+.header-ul{
+    display: inline-block;
+}
+.welcome-ul{
+    float: right;
+}
+.welcome-ul li{
+    display: inline-block;
+
+}
+
+.welcome-ul li:last-child{
+    border-right: none;
+}
+.welcome-ul li span{
+    text-align:center;
+    padding-right:16pt ;
+
+}
+.welcome-ul li span:first-child{
+   padding-left: 16pt;
+}
+.welcome-ul li span:last-child{
+    padding-left: 0pt;
+    border-right:solid 2px #999999 ;
+}
+
+.welcome-ul li:last-child span {
+    padding-left: 16pt;
+    padding-right: 0pt;
+    border-right:none;
+}
+.nav-header{
+    height: 50px;
+}
+.header-logo{
+    height: 27px;
+    width: 50px;
+}
+.header-OMS{
+    ont-family:RTWSYueGoTrial-Regular;
+    font-size:20px;
+    color:#ffffff;
+    text-align:left;
+}
+.navOMS-ul{
+    margin-bottom: 0;
+    float: left;
+    margin-left: 107pt;
+}
+.navOMS-ul li{
+    display: inline-block;
+    font-size:16px;
+    color:#ffffff;
+    text-align:left;
+    margin-right: 39.5pt;
+}
+
+.oms-content{
+    width: 1190px;
+    margin:0 auto;
+    background-color: #ffffff;
+    padding-top:15pt;
+    padding-bottom: 80px;
+}
+.oms-footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border:1px solid #dddddd;
+}
+.oms-footer-content{
+    width: 1190px;
+    margin:0 auto;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    font-size:12px;
+    color:#bbbbbb;
+    letter-spacing:0;
+    background-color: #fff;
+
+}
+label{
+    margin-bottom: 0 !important;
+    font-weight: 400 !important;
+}
+
+/*table样式*/
+.table{
+    font-size:14px;
+    color:#666666;
+}
+.table thead{
+    background:#ececf1;
+}
+.fixed-table-container{
+    border-radius: 0 !important;
+    border: none;
+}
+.fixed-table-container thead th:first-child{
+    border-radius: 0 !important;
+}
+.table > thead > tr > th, .table > tbody > tr > td, .table > tfoot > tr > td {
+
+    border-bottom: 2pt solid #dddddd; ;
+    border-left: none;
+}
+.table > thead > tr > th:last-child, .table > tbody > tr > td:last-child, .table > tfoot > tr > td:last-child {
+    text-align: center;
+
+}
+.fixed-table-container thead th .th-inner {
+    font-weight: 400;
+}
+
+
+select {
+
+    background:#ffffff;
+    border:1px solid #dddddd;
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background:url("../img/selectImg.png")no-repeat scroll 150px center transparent;
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 30px;
+}
+.select{
+    position: relative;
+}
+.select:after{
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    right: 32px;
+    height: 29px;
+    border-left: 1px solid #dddddd;
+
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }

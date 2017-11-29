@@ -1,0 +1,57 @@
+.homePage-content{
+    margin-top: 15pt;
+}
+.homePage-count{
+    background:#ffffff;
+    border:1px solid #dddddd;
+    width:282px;
+    height:161px;
+    margin-right: 13.5pt;
+}
+.homePage-content.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.homePage-count:last-child{
+    margin-right: 0;
+}
+.homePage-count-left{
+    float: left;
+}
+.homePage-count-right{
+    float: right;
+}
+.homePage-count-right h1{
+    font-family:FZLTZHK--GBK1-0;
+    font-size:18px;
+    color:#333333;
+    letter-spacing:0;
+    text-align:left;
+}
+.homePage-count-right p{
+     font-size:14px;
+     color:#666666;
+     letter-spacing:0;
+     text-align:left;
+     margin: 0;
+    padding: 0;
+ }
+.homePage-count-right p label{
+    color:#3399ff;
+ }
+
+.homePage-count-left img{
+    margin-top: 24pt;
+    height: 100px;
+    width: 100px;
+}
+.homePage-button{
+    margin-top: 15pt;
+    background:#ffffff;
+    border:1px solid #3399ff;
+    border-radius:2px;
+    width:84px;
+    height:28px;
+    color:#3399ff;
+    padding: 0;
+}

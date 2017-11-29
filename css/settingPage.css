@@ -1,0 +1,157 @@
+.setting-nav{
+    position: absolute;
+    background:#f2f2f2;
+    width:180px;
+}
+.setting-sidebar-menu{
+    list-style: none;
+    padding-left: 0;
+
+}
+.setting-sidebar-menu div{
+    font-family:FZLTZHK--GBK1-0;
+    font-size:16px;
+    color:#333333;
+    letter-spacing:0;
+    text-align:left;
+    height:40px ;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+.setting-sidebar-menu hr{
+    border:1px solid #dddddd;
+    width:139px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.setting-sidebar-menu .treeview-menu{
+    list-style: none;
+    padding-left: 0px;
+}
+.setting-sidebar-menu .treeview-menu .menu-simple{
+    margin: 4px 0 3px 0;
+    padding: 5px 0 5px 30px;
+    font-family:MicrosoftYaHei;
+    font-size:14px;
+    color:#999999;
+    letter-spacing:0;
+    text-align:left;
+    cursor: pointer;
+}
+.setting-sidebar-menu .treeview-menu .menu-simple span{
+    color:#999999;
+}
+.setting-sidebar-menu .treeview-menu .menu-simple.active{
+    border-left:solid 2px #3399ff;
+    color:#3399ff;
+}
+.setting-sidebar-menu .treeview-menu .menu-simple.active span{
+    color:#3399ff;
+}
+.setting-content{
+    margin-left: 200px;
+}
+
+.oms-guidepost{
+    float: left;
+    font-size:14px;
+    color:#999999;
+    letter-spacing:0;
+    text-align:left;
+}
+.oms-guidepost span{
+    color:#3399ff;
+}
+.oms-guidepost span:last-child{
+    color:#999999;
+}
+.oms-guidepost-right{
+    float: right;
+}
+
+.myStoreBtn{
+    background:#3399ff;
+    border-radius:2px;
+    height:31px;
+    font-size:14px;
+    color:#ffffff;
+    letter-spacing:0;
+    text-align:center;
+}
+.myStore-search{
+    background:#ececf1;
+    margin-top: 20px;
+    line-height: 50px;
+}
+
+.search-content{
+    background:#ffffff;
+    border:1px solid #dddddd;
+    width:598px;
+    height:31px;
+    font-size:14px;
+    color:#bbbbbb;
+    letter-spacing:0;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#myStore-table th,td{
+    height: 40px;
+    width:198px;
+    border: none;
+}
+
+.option-span{
+    color: #3399ff;
+}
+.option-default-span{
+    color:#999999;
+}
+
+/*淘宝物料*/
+.taobao-search label{
+    font-size:14px;
+    color:#999999;
+    letter-spacing:0;
+    text-align:left;
+    margin-right: 10px;
+}
+
+.taobao-search .taobao-search-content{
+    background:#ffffff;
+    border:1px solid #dddddd;
+    width:198px;
+    height:29px;
+}
+
+/*.taobao-search label img{
+    vertical-align: middle;
+    margin-right: 10px;
+}*/
+.taobao-search label div{
+    padding-left: 3px;
+    width: 22px;
+    display: inline-block;
+    background: url("../img/checkboxImg.png") no-repeat left center;
+}
+
+/*创建店铺*/
+.createStore{
+    background:#ffffff;
+    border:1px solid #dddddd;
+    width:1188px;
+    height:819px;
+}
+.createStore-left{
+    float: left;
+    text-align: center;
+}
+.createStore-right{
+    float: right;
+    border-left:1px solid #dddddd;
+    width:298px;
+}

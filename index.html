@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link rel="stylesheet" href="js/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/lib/bootstrap-table/bootstrap-table.min.css">
+    <link rel="stylesheet" href="css/adminLTE/AdminLTE.css">
+    <link rel="stylesheet" href="css/adminLTE/_all-skins.css">
+    <link rel="stylesheet" href="css/adminLTE/font-awesome.css">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="css/settingPage.css">
+
+</head>
+<body ng-app="app" class="skin-black sidebar-mini">
+<div class="oms-header">
+    <header class="main-header">
+        <div class="welcome-header">
+            <span class="welcome-title">欢迎您,管理员</span>
+            <ul class="header-ul welcome-ul">
+                <li><span>手机APP</span></li>
+                <li><span>云盘</span><span>客服</span></li>
+                <li><span>首页</span><span>应用中心</span></li>
+                <li><span>消息</span><span>任务</span></li>
+                <li><span>个人中心</span></li>
+            </ul>
+        </div>
+        <div class="nav-header">
+            <div style="display: inline-block;float: left">
+                <img class="header-logo" src="img/homeLog.png">
+                <span class="header-OMS">OMS</span>
+            </div>
+            <ul class="header-ul navOMS-ul">
+                <li><a href="#/homePage" v-link="{ path: '/homePage'}"><span>首页</span></a></li>
+                <li><a href="#/settingPage" v-link="{ path: '/settingPage'}"><span>设置</span></a></li>
+                <li><a href="#/firstPage" v-link="{ path: '/firstPage'}"><span>订单发货</span></a></li>
+                <li><a href="#/firstPage" v-link="{ path: '/firstPage'}"><span>退款退货</span></a></li>
+                <li><a href="#/firstPage" v-link="{ path: '/firstPage'}"><span>报表中心</span></a></li>
+            </ul>
+        </div>
+    </header>
+</div>
+<div class="oms-content" id="app">
+    <ui-view></ui-view>
+</div>
+
+<div style="height: 38px;display: inline-block"></div>
+<footer class="oms-footer">
+    <div class="oms-footer-content">
+        犀牛网络·版权所有 ⓒ 2014-201
+    </div>
+</footer>
+
+
+</body>
+</html>
+
+<!--空间js-->
+<script src="js/lib/jQuery/jquery-2.2.3.min.js"></script>
+<script src="js/lib/angular/angular.js"></script>
+<script src="js/app.js"></script>
+<script src="js/lib/angular-ui-router/angular-ui-router.js"></script>
+<script src="js/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/lib/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="js/lib/layer/layer.js"></script>
+<!--模板js-->
+<script src="js/lib/adminLTE/app.js"></script>
+<script src="js/index.js"></script>
+
+<!--自定义Controller-->
+<script src="js/controller/homePageCtrl.js"></script>
+<script src="js/controller/settingPageCtrl.js"></script>
+<script src="js/controller/mystorePageCtrl.js"></script>
+<script src="js/controller/taobaomaterialCtrl.js"></script>
+<!--自定义filter-->
+
+<!--自定义directive-->
+
+<!--自定义service-->
+<script src="js/service/commonService.js"></script>
